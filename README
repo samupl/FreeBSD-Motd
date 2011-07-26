@@ -1,0 +1,7 @@
+This is a rewrite of my bash motd for FreeBSD operating system. This 
+time in C, and it does not make uneccecary forks.
+
+This version works on UFS only. If you try to run it on other fs, the 
+quota usage won't be shown correctly. In next commits I will write it 
+for ZFS, allowing the user to determine the filesystem with the 
+makefile.
